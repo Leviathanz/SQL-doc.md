@@ -20,11 +20,15 @@ deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted unive
 deb-src http://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted universe multiverse
 # Canonical 合作伙伴和附加
 deb http://archive.canonical.com/ubuntu/ xenial partner
-deb http://extras.ubuntu.com/ubuntu/ xenial main```
+deb http://extras.ubuntu.com/ubuntu/ xenial main
+```
+
 #### 3. 接着创建数据库，并设置密码123456
 ``` sudo apt-get update
 sudo apt-get install tasksel
-sudo tasksel  ```
+sudo tasksel  
+```
+
 #### 4. 然后创建并打开数据库代码为mysql -u root -p        然后回车 敲入密码。进入。
 然后输入show databases  接着输入；
 可以显示数据库
