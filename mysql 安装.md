@@ -24,4 +24,4 @@
  -4. 使用 sudo apt-get install tasksel 和 sudo tasksel 命令安装Apache（包含mysql）；安装过程中设置用户root的密码为123456；
  -5. 使用 mysql -u root -p 命令回车后系统会提示你输密码，然后进入mysql操作页面；
  -6. 创建一个数据库叫stu
- -7. 数据库下创建三个表，分别为：学生信息表（information），院校表（school），成绩表（score）。
+ -7. 数据库下创建三个表，分别为：学生信息表（student），院校表（school），成绩表（score）。
